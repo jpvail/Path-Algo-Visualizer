@@ -1,0 +1,25 @@
+.dropdown {
+  position: absolute;
+  top: 9vh;
+  width: 15%;
+  transform: translateX(25%);
+  border: 1px solid #474a4d;
+  border-radius: 8px;
+  background-color: white;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.menu-item {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  transition: background 500ms;
+  padding: 0.2rem;
+  overflow: hidden;
+}
+
+.menu-item:hover {
+  background-color: #525357;
+}

@@ -1,0 +1,10 @@
+.grid {
+  margin: 100px 0 0;
+}
+
+.credit {
+  position: absolute;
+  bottom: 0px;
+  margin-left: 50%;
+  font-size: 12px;
+}
