@@ -11,13 +11,25 @@
 }
 
 .menu-item {
-  height: 2rem;
   display: flex;
   align-items: center;
-  border-radius: 8px;
   transition: background 500ms;
-  padding: 0.2rem;
   overflow: hidden;
+}
+
+@media only screen and (min-width: 513px) {
+  .menu-item {
+    font-size: 14px;
+    padding: 0.2rem 0;
+    height: 2rem;
+  }
+}
+
+@media only screen and (max-width: 513px) {
+  .menu-item {
+    font-size: 11px;
+    height: 50px;
+  }
 }
 
 .menu-item:hover {

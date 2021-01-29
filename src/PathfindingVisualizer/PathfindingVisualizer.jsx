@@ -9,6 +9,7 @@ import {
   getNodesInShortestPathOrder
 } from "../algorithms/algorithms";
 import NavBar from "./NavBar.jsx";
+import { BreakpointProvider, Breakpoint } from "react-socks";
 
 const PathfindingVisualizer = () => {
   const [grid, setGrid] = useState([]);
@@ -43,6 +44,7 @@ const PathfindingVisualizer = () => {
       if (i === visitedNodesInOrder.length) {
         let nodesInShortestPathOrder;
         if (
+          //there is no path from startNode to finishNode
           visitedNodesInOrder[i - 1].row !== finishNodePosRef.current[0] ||
           visitedNodesInOrder[i - 1].col !== finishNodePosRef.current[1]
         ) {
@@ -342,6 +344,7 @@ const PathfindingVisualizer = () => {
         onAddCheckPoint={handleAddCheckPoint}
         add={addCheckPointOnNav.current}
       />
+
       <div className="grid">
         {grid.map((row, rowIdx) => {
           return (

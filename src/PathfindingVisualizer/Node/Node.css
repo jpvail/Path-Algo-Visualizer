@@ -1,8 +1,87 @@
 .node {
-  width: 25px;
-  height: 25px;
   outline: 1px solid #c0c0c0;
   display: inline-block;
+}
+
+@media only screen and (min-width: 1250px) {
+  .node {
+    height: 25px;
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .node {
+    height: 25px;
+    width: 18px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .node {
+    height: 25px;
+    width: 15px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .node {
+    height: 25px;
+    width: 14px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .node {
+    height: 25px;
+    width: 12px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .node {
+    height: 25px;
+    width: 11px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .node {
+    height: 25px;
+    width: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .node {
+    height: 25px;
+    width: 9px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .node {
+    height: 25px;
+    width: 8px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .node {
+    height: 25px;
+    width: 7px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .node {
+    height: 20px;
+    width: 6px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .node {
+    height: 15px;
+    width: 5px;
+  }
 }
 
 .node-finish {
