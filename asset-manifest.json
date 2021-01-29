@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Path-Algo-Visualizer/static/css/main.d1eb405d.chunk.css",
-    "main.js": "/Path-Algo-Visualizer/static/js/main.ff8f8803.chunk.js",
-    "main.js.map": "/Path-Algo-Visualizer/static/js/main.ff8f8803.chunk.js.map",
+    "main.css": "/Path-Algo-Visualizer/static/css/main.ec03ea8c.chunk.css",
+    "main.js": "/Path-Algo-Visualizer/static/js/main.088f243f.chunk.js",
+    "main.js.map": "/Path-Algo-Visualizer/static/js/main.088f243f.chunk.js.map",
     "runtime-main.js": "/Path-Algo-Visualizer/static/js/runtime-main.e16a2fcb.js",
     "runtime-main.js.map": "/Path-Algo-Visualizer/static/js/runtime-main.e16a2fcb.js.map",
-    "static/js/2.d4038170.chunk.js": "/Path-Algo-Visualizer/static/js/2.d4038170.chunk.js",
-    "static/js/2.d4038170.chunk.js.map": "/Path-Algo-Visualizer/static/js/2.d4038170.chunk.js.map",
+    "static/js/2.4dccace9.chunk.js": "/Path-Algo-Visualizer/static/js/2.4dccace9.chunk.js",
+    "static/js/2.4dccace9.chunk.js.map": "/Path-Algo-Visualizer/static/js/2.4dccace9.chunk.js.map",
     "index.html": "/Path-Algo-Visualizer/index.html",
-    "static/css/main.d1eb405d.chunk.css.map": "/Path-Algo-Visualizer/static/css/main.d1eb405d.chunk.css.map",
-    "static/js/2.d4038170.chunk.js.LICENSE.txt": "/Path-Algo-Visualizer/static/js/2.d4038170.chunk.js.LICENSE.txt"
+    "static/css/main.ec03ea8c.chunk.css.map": "/Path-Algo-Visualizer/static/css/main.ec03ea8c.chunk.css.map",
+    "static/js/2.4dccace9.chunk.js.LICENSE.txt": "/Path-Algo-Visualizer/static/js/2.4dccace9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e16a2fcb.js",
-    "static/js/2.d4038170.chunk.js",
-    "static/css/main.d1eb405d.chunk.css",
-    "static/js/main.ff8f8803.chunk.js"
+    "static/js/2.4dccace9.chunk.js",
+    "static/css/main.ec03ea8c.chunk.css",
+    "static/js/main.088f243f.chunk.js"
   ]
 }
